@@ -78,3 +78,71 @@
     .image
       left: -2rem
 
+
+.s-resource
+  padding-top: 14.9rem
+  padding-bottom: 9.9rem
+  .top
+    @include flex(row, center, space-between)
+    margin-bottom: 5.3rem
+    h2
+      font-family: 'PT Sans', sans-serif
+      font-weight: bold
+      font-size: 3.2rem
+      line-height: 130%
+      color: $color-tertiary
+      max-width: 55.2rem
+
+    p
+      font-weight: 500
+      font-size: 1.6rem
+      line-height: 150%
+      color: $color-tertiary
+  .content
+    @include flex(row, flex-start, space-between)
+
+    .icon
+      width: 6.4rem
+      height: 6.4rem
+      background-color: rgba(197, 190, 220,  0.1)
+      border-radius: 12px
+      margin-bottom: 3rem
+      @include flex(row, center, center)
+
+    .info
+      max-width: 23.9rem
+
+      h4
+        font-weight: bold
+        font-size: 1.8rem
+        line-height: 2.2rem
+        margin-bottom: 2rem
+        color: $color-primary
+
+      p
+        font-size: 1.6rem
+        line-height: 165%
+        color: $color-quaternary
+
+    .card-featured
+      width: 100%
+      max-width: 28rem
+      height: 32.3rem
+      border-radius: 12px
+      background-color: rgba(197, 190, 220,  0.1)
+      padding-top: 4rem
+      padding-left: 4rem
+      .icon
+        background-color: $white
+      .info
+        max-width: 20.4rem
+
+    ul
+      width: 100%
+      max-width: 90.4rem
+      @include flex(row, flex-start, space-between)
+      margin-top: 4rem
+      border-bottom: 3px solid rgba(95, 60, 161, 0.1)
+      padding-bottom: 6.5rem
+      padding-left: 2rem
+      padding-right: 2rem
